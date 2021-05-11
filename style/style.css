@@ -34,7 +34,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image:url("./image/universo.jpg");
+    background-image:url("../image/universo.jpg");
     background-size: cover;
     background-repeat: no-repeat;  
 }
@@ -138,7 +138,7 @@ body{
     min-height: 180vh;
     color: rgb(73, 70, 70);
     font-family: Industry, monospace;   
-    background-image:url("./image/jupiter2.png");
+    background-image:url("../image/jupiter2.png");
     background-size: cover;
     background-repeat: no-repeat;    
 }
@@ -146,7 +146,7 @@ body{
 
 #human{
     color: white;
-    background-image:url("./image/jupiter.jpg");
+    background-image:url("../image/jupiter.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     display: none;
@@ -164,7 +164,7 @@ body{
 
 #terra{
     color: white;
-    background-image:url("./image/terra-text.png");
+    background-image:url("../image/terra-text.png");
     background-size: cover;
     background-repeat: no-repeat; 
     display: none;
