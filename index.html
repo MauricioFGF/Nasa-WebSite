@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="js/script.js"></script>
+
+    <link rel="shortcut icon" href="./image/nasa.png" type="image/x-icon">
+    <title>NASA | Home Page</title>
+</head>
+<body>
+    <div class="background">
+        <div class="tittle">
+            <h1>As Estrelas Apontam o Começo do Futuro Cada Vez Mais Presente!</h1>
+            <h4>Venha Conosco em Direção ao Futuro.</h4>   
+        </div>
+        <div class="button-bottom" > <a href="#navebar"><img src="./image/baixo.gif" ></a></div>
+    </div>
+    <div class="navebar">
+        <h2 id="navebar">Conheça Mais Sobre Nós</h2>
+        <h3>Observe o  universo como você nunca viu antes.</h3>
+        <div class="options">
+            <div class="option" id="option-history" onclick="changed(id)">
+                <div id="text-history">
+                    <p>História da Nasa</p>
+                    <h3>Entenda como surgiu a NASA, quais seus primeiro passos, sua evolução e desenvolvimento, até suas atividades atuais. </h3> 
+                </div>
+                <div  id="picture-history" >
+                   <img src="./image/history.png" alt="">
+                </div>
+            </div>
+            <div class="option" id="option-human" onclick="changed(id)">
+                <div id="text-human" >
+                    <p>Humanos no Espaço</p>
+                    <h3>Saiba mais sobre a estadia humana fora da terra, as pesquisas e trabalhos que estão em progresso.  </h3> 
+                </div>
+                <div id="picture-human" >
+                    <img src="./image/space.png" alt=""> 
+                </div>
+            </div>
+            <div class="option" id="option-terra" onclick="changed(id)">
+                <div id="text-terra" >
+                    <p>Terra</p>
+                    <h3>O planeta está mudando, Nós estamos trabalhando nisso.</h3> 
+                </div>
+                <div  id="picture-terra" >
+                    <img src="./image/Terra.png" alt=""> 
+                </div>
+            </div>
+        </div>
+        <h3>Selecione uma das opções acima</h3>
+    </div>
+
+    <div class="center-page" id="history">
+        <h1 data-anime = "left" > História da NASA</h1>
+        <div class="caracter" data-anime = "left">
+            <img src="./image/nasa.png" alt="">
+            <p>A Administração Nacional de Aeronáutica e Espaço (NASA) é responsável por conquistas científicas e tecnológicas únicas em voos espaciais humanos, aeronáutica, ciência espacial e aplicações espaciais que tiveram impactos generalizados em nossa nação e no mundo. Forjada em resposta às primeiras conquistas espaciais soviéticas, a NASA foi construída no Comitê Consultivo Nacional para a Aeronáutica (NACA) e outras organizações governamentais, como o centro de pesquisa e desenvolvimento aeroespacial civil dos EUA.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Quando a NASA foi inaugurada em 1º de outubro de 1958, ela acelerou o trabalho já iniciado em voos espaciais humanos e robóticos. O primeiro programa de grande destaque da NASA foi o Projeto Mercúrio, um esforço para descobrir se os humanos poderiam sobreviver no espaço. Isso foi seguido pelo Projeto Gemini, que usou espaçonaves construídas para dois astronautas para aperfeiçoar as capacidades necessárias para o objetivo nacional de uma viagem humana à Lua no final da década de 1960. O Projeto Apollo atingiu esse objetivo em julho de 1969 com a missão Apollo 11 e expandiu-o com mais cinco missões de pouso lunar bem-sucedidas em 1972. Após os Projetos de Teste Skylab e Apollo-Soyuz em meados da década de 1970, os esforços de voo espacial humano da NASA foram retomados em 1981 , com o programa do Ônibus Espacial que continuou por 30 anos. O Shuttle não foi apenas uma tecnologia inovadora.</p> 
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Nos últimos 60 anos, a NASA continuou a expandir os limites com pesquisas aeronáuticas de ponta, que mudaram drasticamente a maneira como construímos e pilotamos aviões. A NASA também concluiu o reconhecimento de nosso sistema solar, com intensa investigação de todos os planetas. Usando espaçonaves orbitais como o Telescópio Espacial Hubble, a NASA também mudou drasticamente nossa compreensão do universo ao nosso redor, bem como de nosso próprio planeta. O trabalho inicial da NASA em veículos de lançamento, satélites de comunicação e satélites meteorológicos mudou fundamentalmente a vida diária e criou indústrias totalmente novas. Como um catalisador para a cooperação internacional, a NASA também mudou como e por que a humanidade conduz a exploração espacial. Agora, a NASA está se preparando para levar a humanidade mais longe do que nunca, pois ajuda a promover uma economia espacial comercial robusta perto da Terra.</p>
+        </div>
+        <div class="caracter" data-anime= "left">
+            <p>O Programa de Escritório de História da NASA publica um boletim informativo trimestral , bem como uma série de livros (impressos e digitais ), hospeda mídias sociais, oferece bolsas e administra a Coleção de Referências Históricas (nossa versão de um arquivo) para ajudar o público a encontrar mais informações sobre história aeronáutica e espacial. Além disso, a equipe elabora o Relatório de Aeronáutica e Espaço do Presidente. O National Aeronautics and Space Act de 1958 orienta a NASA a produzir um relatório anual que inclui uma "descrição abrangente das atividades programadas e as realizações de todas as agências dos Estados Unidos no campo da aeronáutica e atividades espaciais" durante o ano anterior.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Nossa equipe também auxilia o público, a mídia, os pesquisadores, os funcionários da NASA e a equipe do Congresso a encontrar recursos dentro e fora da Coleção de Referências Históricas do Escritório de História da NASA.</p>
+        </div>
+    </div>
+
+
+    <div class="center-page"  id="human">
+        <h1 data-anime = "left" >Humanos no Espaço</h1>
+        <div class="caracter" data-anime = "left">
+            <img src="./image/nasa2.jpg" alt="">
+            <p>Todos os dias, desde 2 de novembro de 2000, pessoas orbitam nosso planeta dentro da Estação Espacial Internacional , reunindo ciência, tecnologia e inovação humana para possibilitar novas tecnologias e descobertas de pesquisa impossíveis na Terra.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Astronautas da NASA e espaços de trabalho científico a bordo da estação, bem como investigações científicas instaladas fora da estação, possibilitam pesquisas fundamentais e interdisciplinares, avançando o conhecimento científico sobre a Terra, o espaço e as ciências físicas e biológicas, beneficiando as pessoas que vivem em nosso planeta natal e futuros exploradores. Como um teste para a exploração do espaço profundo, a estação está nos ajudando a aprender como manter os astronautas saudáveis ​​durante viagens espaciais de longa duração e demonstrando tecnologias para exploração humana e robótica além da órbita baixa da Terra, para a Lua e Marte .</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>A estação facilita o crescimento de um mercado comercial robusto em órbita baixa da Terra como o único Laboratório Nacional dos EUA no espaço. O reabastecimento de carga comercial e o transporte da tripulação comercial para a estação e a órbita baixa da Terra permitirão uma economia de exploração espacial. A Estação Espacial Internacional é um projeto de cooperação global para exploração futura além da Terra - que permite parcerias multinacionais lideradas pelos Estados Unidos e avança objetivos compartilhados na exploração espacial.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>O Programa de Tripulação Comercial da NASA está trabalhando com a indústria aeroespacial americana enquanto a Boeing e a SpaceX desenvolvem e operam uma nova geração de espaçonaves e sistemas de lançamento para transportar tripulações de quatro pessoas para a Estação Espacial Internacional, o que proporcionará tempo adicional de pesquisa e oportunidades mais amplas de descoberta em órbita laboratório.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Com empresas comerciais fornecendo transporte de astronautas de e para a órbita baixa da Terra, a NASA pode se concentrar na construção de espaçonaves e foguetes para missões à Lua e Marte.
+                Como o terceiro objeto mais brilhante no céu (apenas o Sol e a Lua são mais brilhantes!), A Estação Espacial Internacional é fácil de ver ao amanhecer ou ao anoitecer, quando voa sobre sua casa. Inscreva-se para receber mensagens de texto ou e-mails para saber quando e onde procurar e acenar para os astronautas no site Spot the Station da NASA .</p>
+        </div>
+    </div>
+
+    <div class="center-page"  id="terra">
+        <h1 data-anime = "left" > Terra Agora</h1>
+        <div class="caracter" data-anime = "left">
+            <img src="./image/Terra1.jpg" alt="">
+            <p>A NASA usa o ponto de vista do espaço para aumentar nossa compreensão de nosso planeta natal, melhorar vidas e salvaguardar nosso futuro.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Nós monitoramos os sinais vitais da Terra de terra, ar e espaço com uma frota de satélites e ambiciosas campanhas aéreas e terrestres de observação. A NASA desenvolve novas maneiras de observar e estudar os sistemas naturais interconectados da Terra com registros de dados de longo prazo. A agência compartilha gratuitamente esse conhecimento único e trabalha com instituições em todo o mundo.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>Cientistas de todo o mundo usam os dados da NASA para resolver algumas das maiores questões sobre como nosso planeta está mudando agora e como a Terra pode mudar no futuro. Desde o aumento do nível do mar até a mudança na disponibilidade de água doce, a NASA possibilita estudos que desvendam as complexidades de nosso planeta, desde as partes mais altas da atmosfera da Terra até seu núcleo.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>O trabalho de ciências da Terra da NASA também faz diferença na vida das pessoas ao redor do mundo todos os dias. De fazendas a nossos parques nacionais, da resposta de hoje aos desastres naturais à qualidade do ar de amanhã, do Ártico à Amazônia, a NASA está trabalhando para você 24 horas por dia, 7 dias por semana.</p>
+        </div>
+        <div class="caracter" data-anime = "left">
+            <p>A experiência da NASA em exploração espacial e científica contribui para serviços essenciais prestados ao povo americano por outras agências federais, como previsão do tempo e gestão de recursos naturais.
+               Todo esse novo conhecimento sobre nosso planeta natal permite que os formuladores de políticas, agências governamentais e outras partes interessadas tomem decisões mais informadas sobre questões críticas que ocorrem em todo o mundo.</p>
+        </div>
+    </div>
+
+    <footer><p class="p" data-anime  >© Copyright 2001-2020 Copyright.com.br - All Rights Reserved - Legal</p></footer>
+</body>
+</html>
